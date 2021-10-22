@@ -6,6 +6,13 @@ https://drive.google.com/drive/folders/1Mh7s8fDo0LdvLaiVOPu4grDvvQVMqpCy?usp=sha
 ## Instructions:
 Make sure to download the data required to run the code and save it in the same directory as that of the code.
 
+
+## Libraries Required
+* Numpy
+* OpenCV
+* Matplotlib
+* imutils
+
 ## Notes:
 1) The three channels BGR are then separated, and the histogram of each individual channel is computed separately.
 2) The histogram values are used to compute the cumulative distributed function (CDF) and thus the new value of each pixel is obtained from the CDF.
